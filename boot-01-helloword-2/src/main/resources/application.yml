@@ -1,0 +1,49 @@
+person:
+  userName: "zhangancheng \n 张三"
+# 单引号会将 \n作为字符串输出 双引号会将 \n作为换行输出
+# 双引号不会转义，单引号会转义
+  boss: true
+  birth: 2001/2/2
+  age: 18
+#  interests: [篮球,足球,羽毛球]
+  interests:
+    - 篮球
+    - 足球
+    - 羽毛球
+  animal: [阿喵,阿狗,阿猫]
+#  score:
+#    english: 88.88
+#    math: 77.77
+  score: {english: 80,math: 77}
+  salarys:
+    - 9999
+    - 9998
+  Pet:
+    name: 阿猫
+    weight: 88
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 88}
+      - name: 阿猫
+        weight: 77
+      - name: 安成
+        weight: 66
+#    health:[{},{},{}]
+    health:
+      - {name: 阿喵,weight: 99}
+      - {name: 阿苗,weight: 88}
+
+
+#spring:
+#  banner:
+#    location:
+#    image:
+#      bitdepth: 4
+#  cache:
+#    type: redis
+#    redis:
+#      cache-null-values:
+
+
+
+
